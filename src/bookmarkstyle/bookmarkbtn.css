@@ -53,5 +53,11 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid black;
     }
-    
+    .bookmarkbtn_wrapper .hr{
+        width: 1px;
+        height: 130px;
+        background: #000;
+    }

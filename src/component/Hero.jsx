@@ -1,6 +1,5 @@
 import React from 'react'
 import '../style/hero.css'
-import logos from '../image/heroimgbutton.png'
 function Hero() {
   return (
     <div className='hero'>

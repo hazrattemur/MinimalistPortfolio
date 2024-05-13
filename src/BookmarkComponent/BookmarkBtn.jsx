@@ -15,6 +15,7 @@ function BookmarkBtn() {
                 <h5>Previous Project</h5>
             </div>
             </div>
+            <div className="hr"></div>
             <div className="bookmarkbtn_nextbookmark">
                 <div className="bookmarkbtn_text1">
                <NavLink to={"/PortfolioInsure"}> <h1>Insure</h1></NavLink>

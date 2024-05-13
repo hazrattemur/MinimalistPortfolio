@@ -15,6 +15,7 @@ function InsureBtn() {
                 <h5>Previous Project</h5>
             </div>
             </div>
+            <div className="hr"></div>
             <div className="insurebtn_nextbookmark">
                 <div className="insurebtn_text1">
                <NavLink to={"/PortfolioFylo"}> <h1>Fylo</h1></NavLink>

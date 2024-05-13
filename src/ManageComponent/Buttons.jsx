@@ -15,6 +15,7 @@ function Buttons() {
                 <h5>Previous Project</h5>
             </div>
             </div>
+            <div className="hr"></div>
             <div className="button_nextbookmark">
                 <div className="button_text1">
                <NavLink to={"/PortfolioBookmark"}> <h1>Bookmark</h1></NavLink>
