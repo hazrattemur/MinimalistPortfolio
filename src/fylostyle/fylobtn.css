@@ -1,0 +1,63 @@
+.fylobtn_fylo h1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.2857142984867096px;
+    text-align: left;
+    color: #33323D;
+    cursor: pointer;
+    }
+    .fylobtn_text{
+        padding-top: 32px;
+    
+    }
+    .fylobtn_fylo h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #33323D;
+    
+    }
+    .fylobtn_fylo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 36px;
+    }
+    .fylobtn_nextbookmark{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 28px;
+    }
+    .fylobtn_text1 h1{
+        font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.2857142984867096px;
+    text-align: left;
+    color: #33323D;
+    padding-top: 32px;
+    cursor: pointer;
+    }
+    .fylobtn_text1 h5{
+        font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #33323D;
+    
+    }
+    .fylobtn_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid black;
+    }
+.fylobtn_wrapper .hr {
+    width: 1px;
+    height: 130px;
+    background: #000;
+}

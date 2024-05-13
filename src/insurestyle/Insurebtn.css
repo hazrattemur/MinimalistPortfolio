@@ -1,0 +1,57 @@
+.insurebtn_fylo h1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.2857142984867096px;
+    text-align: left;
+    color: #33323D;
+    cursor: pointer;
+    }
+    .insurebtn_text{
+        padding-top: 32px;
+    
+    }
+    .insurebtn_fylo h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #33323D;
+    
+    }
+    .insurebtn_fylo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 36px;
+    }
+    .insurebtn_nextbookmark{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 28px;
+    }
+    .insurebtn_text1 h1{
+        font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.2857142984867096px;
+    text-align: left;
+    color: #33323D;
+    padding-top: 32px;
+    cursor: pointer;
+    }
+    .insurebtn_text1 h5{
+        font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #33323D;
+    
+    }
+    .insurebtn_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    

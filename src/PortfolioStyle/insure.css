@@ -1,0 +1,142 @@
+.insure_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 69px;
+}
+.insure{
+    padding: 94px 80px;
+}
+.insure_img {
+    max-width: 540px;
+}
+.insure_img img{
+    width: 100%;
+}
+.insure_text h1{
+font-size: 40px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: -0.3571428656578064px;
+text-align: left;
+color: #33323D;
+padding-bottom: 28px;
+
+}
+.insure_text p{
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #33323D;
+padding-bottom: 24px;
+width: 350px;
+}
+.insure_text h6{
+font-size: 13px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+color: #5FB4A2;
+display: none;
+
+}
+.insure_text h6:nth-of-type(2){
+    padding-bottom: 24px;
+}
+.insure_text button{
+font-size: 12px;
+font-weight: 400;
+line-height: 14.1px;
+letter-spacing: 2px;
+text-align: center;
+color: #33323D;
+width: 175px;
+height: 48px;
+border: 1px solid #33323D;
+background-color: transparent;
+}
+.insure_text button:hover{
+    background-color: #203A4C;
+    color: white;
+}
+hr:nth-of-type(2){
+    width: 350px;
+height: 1px;
+color: #33323D;
+margin-top: 103px;
+}
+hr:nth-of-type(1){
+    width: 350px;
+    height: 1px;
+    color: #33323D;
+    margin-bottom: 103px; 
+}
+
+
+     /* media */
+@media(max-width:1191px){
+    .insure_wrapper {
+        gap: 60px;
+}
+}
+ @media(max-width:1007px){
+    .insure {
+        padding: 94px 30px;
+    }
+ }
+ @media(max-width:984px){
+    .insure {
+        padding: 94px 18px;
+    }
+ }
+ @media(max-width:876px){
+    .insure {
+        padding: 94px 0px;
+    }
+ }
+ @media(max-width:765px){
+    .insure_wrapper {
+        display: block;
+    }
+    .insure {
+        padding: 94px 190px;
+    }
+    .insure {
+        padding: 38px 190px;
+    }
+ }
+ @media(max-width:705px){
+    .insure {
+        padding: 22px 130px;
+    }
+ }
+ @media(max-width:583px){
+    .insure {
+        padding: 22px 73px;
+    }
+ }
+ @media(max-width:525px){
+    .insure_wrapper {
+        display:grid;
+    }
+ }
+ @media(max-width:453px){
+    .insure {
+        padding: 22px 35px;
+    }
+ }
+ @media(max-width:400px){
+    .insure {
+        padding: 22px 13px;
+    }
+ }
+ @media(max-width:375px){
+
+    .insure {
+        padding: 22px 0px;
+    }
+    .insure_text h6{
+        display: block;
+    }
+ }

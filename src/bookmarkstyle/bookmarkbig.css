@@ -1,0 +1,106 @@
+.bookmarkbig{
+    padding: 115px 64px;
+}
+.bookmarkbig_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.bookmark_btn h1{
+font-size: 40px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: -0.3571428656578064px;
+text-align: left;
+color: #33323D;
+margin-bottom: 30px;
+}
+.bookmark_btn p{
+    font-family: Public Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #33323D;
+margin-bottom: 23px;
+max-width: 350px;
+width: 100%;
+}
+.bookmark_btn h5{
+    font-family: Public Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+color: #5FB4A2;
+margin-bottom: 16px;
+}
+.bookmark_btn button{
+    font-family: Public Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.1px;
+letter-spacing: 2px;
+text-align: center;
+color: #33323D;
+width: 178px;
+height: 48px;
+border: 1px solid #33323D;
+background-color: transparent;
+}
+.bookmark_btn button:hover{
+    background-color: #203A4C;
+    color: white;
+}
+/* .manage_btn hr{
+    width: 350px;
+height: 1px;
+color: #33323D;
+margin-bottom: 48px;
+} */
+.bookmark_img h1{
+font-size: 32px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: -0.2857142984867096px;
+text-align: left;
+color: #33323D;
+margin-bottom: 26px;  
+}
+.bookmark_img p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #33323D;
+    margin-bottom: 40px; 
+    max-width: 635px;
+    width: 100%;
+}
+.bookmark_img h2{
+font-size: 32px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: -0.2857142984867096px;
+text-align: left;
+color: #33323D;
+margin-bottom: 28px;
+}
+.bookmark_img img{
+    max-width: 635px;
+    width: 100%;
+}
+
+
+     /* Media */
+
+@media(max-width:788px){
+    .bookmarkbig_wrapper {
+        display:block;
+    }
+}
+@media(max-width:768px){
+.bookmark_btn p{
+    display: block;
+    float: right;
+}
+}

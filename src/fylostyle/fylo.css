@@ -1,0 +1,62 @@
+.fylotexts{
+    padding-bottom: 151px;
+    margin: 115px 150px;
+}
+.fylotext_wrapper h1{
+font-size: 40px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: -0.3571428656578064px;
+text-align: left;
+color: #33323D;
+max-width: 350px;
+width: 100%;
+
+}
+.fylotext_btn button{
+font-size: 12px;
+font-weight: 400;
+line-height: 14.1px;
+letter-spacing: 2px;
+text-align: center;
+color: #33323D;
+width: 162px;
+height: 48px;
+border: 1px solid #33323D;
+background-color: transparent;
+}
+.fylotext_btn button:hover{
+    background-color:  #33323D;
+    color: white;
+}
+.fylotext_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+hr:nth-last-of-type(1) {
+width: 534px;
+height: 1px;
+color: #33323D;
+margin:  0 auto ;
+}
+
+
+
+
+    /* media */
+
+    @media(max-width:549px){
+        hr{
+            display: none;
+        }
+    }
+    @media(max-width:508px){
+        .fylotext_wrapper{
+            flex-direction: column;
+            gap: 40px;
+        }
+        .fylotexts {
+            padding-bottom: 80px;
+        }
+    }

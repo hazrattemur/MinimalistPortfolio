@@ -1,0 +1,56 @@
+.button_fylo h1{
+font-size: 32px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.2857142984867096px;
+text-align: left;
+color: #33323D;
+cursor: pointer;
+}
+.button_text{
+    padding-top: 32px;
+
+}
+.button_fylo h5{
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #33323D;
+
+}
+.button_fylo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 36px;
+}
+.button_nextbookmark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+.button_text1 h1{
+    font-size: 32px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.2857142984867096px;
+text-align: left;
+color: #33323D;
+padding-top: 32px;
+cursor: pointer;
+}
+.button_text1 h5{
+    font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #33323D;
+
+}
+.button_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
